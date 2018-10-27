@@ -1,0 +1,359 @@
+2018-10-27 03:22:38,309 [Thread-3:140174796900096] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-10-27 03:22:42,412 [Thread-4:140174796900096] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 144, in get
+    page = p.page(page)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: That page contains no results
+2018-10-27 03:22:47,027 [Thread-5:140174808516352] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 144, in get
+    page = p.page(page)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: That page contains no results
+2018-10-27 03:23:14,688 [Thread-8:140174796900096] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 144, in get
+    page = p.page(page)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: That page contains no results
+2018-10-27 04:28:08,373 [Thread-10:140174808516352] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 144, in get
+    page = p.page(page)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: That page contains no results
+2018-10-27 04:37:20,159 [Thread-14:140174796900096] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 144, in get
+    page = p.page(page)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: That page contains no results
+2018-10-27 04:51:37,005 [Thread-2:140479854716672] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 195, in put
+    return JsonResponse({"name"})
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/http/response.py", line 524, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+2018-10-27 04:51:41,520 [Thread-3:140479854716672] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 195, in put
+    return JsonResponse({"name"})
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/http/response.py", line 524, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+2018-10-27 05:33:12,243 [Thread-4:140471318812416] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/middleware/common.py", line 64, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/middleware/common.py", line 104, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/dashboard/userview/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-10-27 05:33:15,494 [Thread-5:140471318812416] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/utils/deprecation.py", line 138, in __call__
+    response = self.process_request(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/middleware/common.py", line 64, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/middleware/common.py", line 104, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/dashboard/userview/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2018-10-27 05:36:46,852 [Thread-2:140131417728768] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 412, in _query
+    rowcount = self._do_query(q)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 375, in _do_query
+    db.query(q)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 276, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.IntegrityError: (1062, "Duplicate entry 'iteemo99' for key 'username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 205, in put
+    res = User.objects.filter(username=name).update(username="iteemo99")
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/query.py", line 650, in update
+    rows = query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1204, in execute_sql
+    cursor = super(SQLUpdateCompiler, self).execute_sql(result_type)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 899, in execute_sql
+    raise original_exception
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 889, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 412, in _query
+    rowcount = self._do_query(q)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/cursors.py", line 375, in _do_query
+    db.query(q)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/MySQLdb/connections.py", line 276, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'iteemo99' for key 'username'")
+2018-10-27 05:38:04,048 [Thread-2:140226842732288] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 41, in validate_number
+    number = int(number)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 144, in get
+    page = p.page(page)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/paginator.py", line 43, in validate_number
+    raise PageNotAnInteger(_('That page number is not an integer'))
+django.core.paginator.PageNotAnInteger: That page number is not an integer
+2018-10-27 05:39:18,027 [Thread-3:140223115327232] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 183, in delete
+    res=User.objects.get(**data)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/query.py", line 384, in get
+    (self.model._meta.object_name, num)
+django.contrib.auth.models.MultipleObjectsReturned: get() returned more than one User -- it returned 100!
+2018-10-27 05:39:25,292 [Thread-4:140223115327232] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 183, in delete
+    res=User.objects.get(**data)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/db/models/query.py", line 384, in get
+    (self.model._meta.object_name, num)
+django.contrib.auth.models.MultipleObjectsReturned: get() returned more than one User -- it returned 100!
+2018-10-27 05:42:39,920 [Thread-2:139818038306560] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 206, in put
+    return JsonResponse({data})
+TypeError: unhashable type: 'dict'
+2018-10-27 05:43:11,646 [Thread-2:139741837526784] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 206, in put
+    return JsonResponse({"id": res.id, "name": res.username}, safe=False)
+AttributeError: 'int' object has no attribute 'id'
+2018-10-27 05:43:13,370 [Thread-3:139741837526784] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 206, in put
+    return JsonResponse({"id": res.id, "name": res.username}, safe=False)
+AttributeError: 'int' object has no attribute 'id'
+2018-10-27 05:43:47,321 [Thread-2:140062636177152] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 206, in put
+    return JsonResponse({"id": res.id, "name": res.username}, safe=False)
+AttributeError: 'int' object has no attribute 'id'
+2018-10-27 05:44:05,698 [Thread-3:140062636177152] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /dashboard/userview/
+Traceback (most recent call last):
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/vagrant/python3.6/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/vagrant/devops/dashboard/views.py", line 206, in put
+    return JsonResponse({"id": res.id, "name": res.username}, safe=False)
+AttributeError: 'int' object has no attribute 'id'
